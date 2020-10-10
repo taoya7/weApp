@@ -3,4 +3,4 @@ from rest_framework.response import Response
 
 class Index(APIView):
     def get(self, requests):
-        return Response('Server is Start!')
+        return Response('Server Is Start ')
